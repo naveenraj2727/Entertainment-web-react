@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  background-image: url("../images/stars3.gif");
+  height: 175px;
+  padding: 20px;
+  color: white;
+}
+
+.App-footer {
+  background-color: #222;
+  background-image: url("../images/stars3.gif");
+  height: 70px;
+  padding: 20px;
+  color: white;
+}
+
+.parent-div{
+  height: 450px;
+}
+
+.App-title {
+  font-size: 50px;
+  font-family: "French Script MT", cursive;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
